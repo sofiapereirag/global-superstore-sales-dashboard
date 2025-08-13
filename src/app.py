@@ -14,11 +14,11 @@ df = load_data("data/processed/superstore.csv")
 
 # Filtros na barra lateral
 st.sidebar.header("Filters")
-year_filter = st.sidebar.multiselect("Year", sorted(df["Year"].unique()), default=df["Year"].unique())
+year_filter = st.sidebar.multiselect("Year.Order", sorted(df["Year.Order"].unique()), default=df["Year.Order"].unique())
 region_filter = st.sidebar.multiselect("Region", sorted(df["Region"].unique()), default=df["Region"].unique())
 
 # Aplicar filtros
-df_filtered = df[(df["Year"].isin(year_filter)) & (df["Region"].isin(region_filter))]
+df_filtered = df[(df["Year.Order"].isin(year_filter)) & (df["Region"].isin(region_filter))]
 
 # KPIs
 total_sales = df_filtered["Sales"].sum()
@@ -36,3 +36,4 @@ col4.plotly_chart(sales_by_category(df_filtered), use_container_width=True)
 col5.plotly_chart(profit_by_region(df_filtered), use_container_width=True)
 
 st.plotly_chart(sales_over_time(df_filtered), use_container_width=True)
+
