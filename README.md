@@ -7,6 +7,15 @@ This project demonstrates **data analysis, preprocessing, and interactive visual
 
 ---
 
+
+
+## Live Demo
+You can try the live version hosted on Streamlit Cloud:
+https://global-superstore-sales-dashboard-bksthqnyeavkjkfgwanrbh.streamlit.app/
+
+---
+
+
 ## Features
 
 - **Interactive filters** for year and region
@@ -77,12 +86,6 @@ pip install -r requirements.txt
 ### 3. Run the app
 streamlit run app/dashboard.py
 
-
-## Live Demo
-You can try the live version hosted on Streamlit Cloud:
-
-
-
 ---
 
 ## Project Workflow
@@ -121,6 +124,7 @@ You can try the live version hosted on Streamlit Cloud:
 Sofia Gonçalves
 Master’s student in Electrical and Computer Engineering — Networks & Telecommunications
 Skills: Python, Data Analysis, Machine Learning, Data Visualization
+
 
 
 
