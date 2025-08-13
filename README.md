@@ -67,12 +67,6 @@ Source: [Kaggle - Global Superstore Dataset](https://www.kaggle.com/datasets/fat
 
 ---
 
-## Example Dashboard
-
-![Dashboard Screenshot](images/dashboard_screenshot.png)
-
----
-
 ##  How to Run
 
 ### 1. Clone the repository
@@ -86,6 +80,7 @@ streamlit run app/dashboard.py
 
 ## Live Demo
 You can try the live version hosted on Streamlit Cloud:
+
 
 
 ---
@@ -123,8 +118,9 @@ You can try the live version hosted on Streamlit Cloud:
 
 
 ## Author
-Sofia [Your Last Name]
+Sofia Gonçalves
 Master’s student in Electrical and Computer Engineering — Networks & Telecommunications
 Skills: Python, Data Analysis, Machine Learning, Data Visualization
+
 
 
