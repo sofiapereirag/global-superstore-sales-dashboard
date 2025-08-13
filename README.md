@@ -34,19 +34,18 @@ https://global-superstore-sales-dashboard-bksthqnyeavkjkfgwanrbh.streamlit.app/
 ## Repository Structure
 
 sales-dashboard
-├── data/
-│ ├── raw/ # Original dataset
-│ ├── processed/ # Cleaned dataset
-├── notebooks/
-│ ├── 01_eda.ipynb # Exploratory Data Analysis
-│ ├── 02_preprocessing.ipynb # Data cleaning and preprocessing
-├── app/
-│ ├── dashboard.py # Main Streamlit application
-│ ├── data_loader.py # Functions to load and prepare data
-│ ├── plots.py # Functions to generate plots
-│ ├── utils.py # Utility functions
-├── README.md
-├── requirements.txt
+- data/
+  - processed/ # Cleaned dataset
+- notebooks/
+  - 01_eda.ipynb # Exploratory Data Analysis
+  - 02_preprocessing.ipynb # Data cleaning and preprocessing
+- src/
+  - app.py # Main Streamlit application
+  - data_loader.py # Functions to load and prepare data
+  - plots.py # Functions to generate plots
+  - utils.py # Utility functions
+- README.md
+- requirements.txt
 
 
 ---
@@ -124,6 +123,7 @@ streamlit run app/dashboard.py
 Sofia Gonçalves
 Master’s student in Electrical and Computer Engineering — Networks & Telecommunications
 Skills: Python, Data Analysis, Machine Learning, Data Visualization
+
 
 
 
