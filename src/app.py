@@ -14,9 +14,7 @@ df = load_data("data/processed/superstore.csv")
 
 # Filtros na barra lateral
 st.sidebar.header("Filters")
-years = sorted(df["Year"].dropna().astype(str).unique())
-year_filter = st.sidebar.multiselect("Year", years, default=years)
-
+year_filter = st.sidebar.multiselect("Year", sorted(df["Year"].unique()), default=df["Year"].unique())
 region_filter = st.sidebar.multiselect("Region", sorted(df["Region"].unique()), default=df["Region"].unique())
 
 # Aplicar filtros
@@ -38,5 +36,6 @@ col4.plotly_chart(sales_by_category(df_filtered), use_container_width=True)
 col5.plotly_chart(profit_by_region(df_filtered), use_container_width=True)
 
 st.plotly_chart(sales_over_time(df_filtered), use_container_width=True)
+
 
 
