@@ -1,5 +1,7 @@
 # Global Superstore Interactive Sales Dashboard
 
+Turn raw sales data into interactive insights — fast, clean, and visual.
+
 An interactive sales dashboard built with **Streamlit** using the [Global Superstore dataset](https://www.kaggle.com/datasets/fatihilhan/global-superstore-dataset).  
 This project demonstrates **data analysis, preprocessing, and interactive visualization** for sales data.
 
@@ -124,4 +126,5 @@ You can try the live version hosted on Streamlit Cloud:
 Sofia [Your Last Name]
 Master’s student in Electrical and Computer Engineering — Networks & Telecommunications
 Skills: Python, Data Analysis, Machine Learning, Data Visualization
+
 
